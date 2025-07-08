@@ -14,7 +14,8 @@ function orderDetials(cart){
 }
 
 function orderSummary(cart){
-    // total price and total products
+    // total price and total products 
+    
     const {totalProducts, totalAmount} = orderDetials(cart);
 
     // then generate orderId
