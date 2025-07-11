@@ -48,9 +48,9 @@
 // event bubbling and capturing
 // bubbling- bottom to top
 
-// const grandparent = document.getElementById("grandparent");
-// const parent = document.getElementById("parent");
-// const child = document.getElementById("child");
+const grandparent = document.getElementById("grandparent");
+const parent = document.getElementById("parent");
+const child = document.getElementById("child");
 
 // grandparent.addEventListener("click",()=>{
 //     console.log("dadaji ka click kyu chheda")
@@ -67,17 +67,17 @@
 //---------------capturing-----------------------------
 
 
-// grandparent.addEventListener("click", () => {
-//     console.log("dadaji ka click kyu chheda")
-// }, true);
+grandparent.addEventListener("click", () => {
+    console.log("dadaji ka click kyu chheda")
+}, true);
 
-// parent.addEventListener("click", () => {
-//     console.log("mera ka click kyu chheda")
-// }, true);
+parent.addEventListener("click", () => {
+    console.log("mera ka click kyu chheda")
+}, true);
 
-// child.addEventListener("click", () => {
-//     console.log("apne aap ka click kyu chheda")
-// }, true);
+child.addEventListener("click", () => {
+    console.log("apne aap ka click kyu chheda")
+}, true);
 
 
 

@@ -76,7 +76,7 @@ const { reject } = require("async");
 
 const promise1 = new Promise((resolve, reject)=>{
     setTimeout(()=>{
-        resolve("Promise resolve p1")
+        resolve("Promise resolve p11")
     })
 })
 
