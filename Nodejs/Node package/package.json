@@ -1,0 +1,15 @@
+{
+  "name": "divanshu-node-package",
+  "version": "1.0.2",
+  "description": "my-package",
+  "license": "ISC",
+  "author": "divanshu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5"
+  }
+}
